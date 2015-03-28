@@ -16,7 +16,7 @@ add_action ('admin_menu', 'main10ence_add_admin_menus');
 
 add_action('init', 'main10ence_add_update_filters');
 
-function main10ence_add_admin_menus() {
+function main10ence_add_admin_menus()  {
     add_menu_page('Main10ence', 'Main10ence', 'manage_options', 'main10ence_admin_menu_main', 'main10ence_admin_menu_main_display', 'dashicons-admin-plugins', '85.1111');
 }
 
